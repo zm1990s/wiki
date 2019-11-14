@@ -35,11 +35,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "黑色主题":
-    - "<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js"| absolute_url }}"></script>"
-
-#  "My Blog":
-#    - "https://www.halfcoffee.com/"
+  "My Blog":
+    - "https://www.halfcoffee.com/"
 
 
 
