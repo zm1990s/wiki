@@ -14,9 +14,3 @@ permalink: /docs/cisco
 <button class="btn js-toggle-dark-mode">黑色主题</button>
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
-
-## 目录
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
