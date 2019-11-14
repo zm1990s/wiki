@@ -6,14 +6,13 @@ description: "记录工作和学习中的一些知识."
 permalink: /
 ---
 
-# 话不多说，上内容
-{: .fs-6 }
+## 对于任何一个转型的工程师来说，最难的是放得下。
 
-## 关于主题
+从最初的的 Linux 小白用户到走网络路线，再转到虚拟化及基础架构，再到云原生，经历了太多，也欠了太多，太多问题卡在心口，唯有放在这里方能释怀。
 
-Just the Docs is &copy; 2017-2019 by [Patrick Marsceill](http://patrickmarsceill.com).
+欢迎收听更新并不频繁的公众号“NSX 很可爱的”
 
-### 主题 License
+欢迎点击右上角查看更新并不频繁的博客
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+
 
