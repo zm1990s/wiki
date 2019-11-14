@@ -39,8 +39,8 @@ aux_links:
     - "https://www.halfcoffee.com/"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Theme Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>
-Artical Copyright： ZhangMin"
+#footer_content: "Theme Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>
+#Artical Copyright： ZhangMin"
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
