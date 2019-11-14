@@ -1,6 +1,6 @@
 ---
 layout: default
-title: >Cisco
+title: Cisco
 nav_order: 2
 has_children: true
 permalink: /docs/cisco
