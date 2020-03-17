@@ -1,0 +1,4 @@
+cd /Users/zm1990s/git-wiki/wiki
+git add .
+git commit -m $1
+git push git@github.com:zm1990s/wiki.git master
