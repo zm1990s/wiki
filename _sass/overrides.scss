@@ -6,9 +6,10 @@ h1 {
     font-size: 1.75em;
     line-height: 1.2;
     border-bottom: 1px solid #eee;
-    color: rgb(0, 80, 137);
+    //color: rgb(0, 80, 137);
    // color: rgb(0, 113, 172);
     //Blue 800
+    color: #072F51;
 }
 h2 {
    padding-bottom: .3em;
@@ -16,20 +17,24 @@ h2 {
     line-height: 1.225;
     border-bottom: 1px solid #eee;
    // color: rgb(3, 148, 210);
-   color: rgb(0, 129, 192);
+  // color: rgb(0, 129, 192);
+   color: #295887
     //Blue 700
 
 }
 h3 {
     font-size: 1.25em;
     line-height: 1.43;
-    color: rgb(214, 181, 31);
+    
+    color: #3498DB;
 }
 h4 {
     font-size: 1.15em;
+    color: #CAAA1C;
 }
 h5 {
     font-size: 1em;
+    color: #777;
 }
 h6 {
    font-size: 1em;
