@@ -1,3 +1,32 @@
 //
 // Custom overrides from a user.
 //
+h1 {
+    padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+    color: rgb(0, 113, 172);
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.5em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+    color: rgb(3, 148, 210);
+}
+h3 {
+    font-size: 1.25em;
+    line-height: 1.43;
+    color: rgb(214, 181, 31);
+}
+h4 {
+    font-size: 1.15em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
