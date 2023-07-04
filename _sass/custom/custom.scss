@@ -152,18 +152,20 @@ html[data-theme="dark"] {
     .main-content-wrap {background-color: $grey-dk-300;}
     .page-header {background-color: $grey-dk-300;}
     .page-header {border-bottom:1px solid #44434d;}
-    .side-bar a {color: #2c84fa;}
     .page {color: #e6e1e8;}
     h1, h2, h3, h4, h5, h6 {color: #E4E6EB !important;}
     h1, h2, h3, h4, h5, h6 {border-bottom: 1px solid #44434d;}
+    .navigation-list-link.active {color: #f5f6fa;}
     .navigation-list-child-list .navigation-list-link {color: #f5f6fa;}
     .navigation-list-link  a {color: #2c84fa;}
-    hr {background-color: 1px solid #44434d;}
+    a {color: #2c84fa;}
+    hr {background-color: #44434d;}
     body {background-color: $grey-dk-300}
     .search-input-wrap {background-color: $grey-dk-300;}
     .search-input {background-color: $grey-dk-300;}
     .highlight {background-color: #18191A;}
     code {background-color: transparent;}
+    th, td{background-color: #343237}
     }
     
     @media (prefers-color-scheme: dark) {
