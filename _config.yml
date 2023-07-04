@@ -39,9 +39,6 @@ heading_anchors: true
 aux_links:
   '<button id="theme-toggle"></button>':
     - '#"onclick="modeSwitcher()"'
-  "My Blog":
-    - "https://www.halfcoffee.com/"
-
 
 
 # Footer content appears at the bottom of every page's main content
