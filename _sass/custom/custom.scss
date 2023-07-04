@@ -148,18 +148,20 @@ html[data-theme="dark"] {
     .page {background-color: $grey-dk-300;}
     .side-bar {border-right:1px solid #44434d;}
     .side-bar {background-color:$grey-dk-300;}
-    .side-header {border-bottom:1px solid #44434d;}
+    .site-header {border-bottom:1px solid #44434d;}
     .main-content-wrap {background-color: $grey-dk-300;}
     .page-header {background-color: $grey-dk-300;}
+    .page-header {border-bottom:1px solid #44434d;}
     .side-bar a {color: #2c84fa;}
     .page {color: #e6e1e8;}
     h1, h2, h3, h4, h5, h6 {color: #E4E6EB !important;}
+    h1, h2, h3, h4, h5, h6 {border-bottom: 1px solid #44434d;}
     .navigation-list-link {color: #f5f6fa;}
     body {background-color: $grey-dk-300}
     .search-input-wrap {background-color: $grey-dk-300;}
     .search-input {background-color: $grey-dk-300;}
-    .highlight {background-color: $blue-000;}
-
+    .highlight {background-color: #18191A;}
+    code {background-color: transparent;}
     }
     
     @media (prefers-color-scheme: dark) {
