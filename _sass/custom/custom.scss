@@ -156,7 +156,9 @@ html[data-theme="dark"] {
     .page {color: #e6e1e8;}
     h1, h2, h3, h4, h5, h6 {color: #E4E6EB !important;}
     h1, h2, h3, h4, h5, h6 {border-bottom: 1px solid #44434d;}
-    .navigation-list-link {color: #f5f6fa;}
+    .navigation-list-child-list .navigation-list-link {color: #f5f6fa;}
+    .navigation-list-link  a {color: #2c84fa;}
+    hr {background-color: 1px solid #44434d;}
     body {background-color: $grey-dk-300}
     .search-input-wrap {background-color: $grey-dk-300;}
     .search-input {background-color: $grey-dk-300;}
