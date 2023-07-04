@@ -34,7 +34,11 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 
 # Aux links for the upper right navigation
+
+    
 aux_links:
+  '<button id="theme-toggle"></button>':
+    - '#"onclick="modeSwitcher()"'
   "My Blog":
     - "https://www.halfcoffee.com/"
 
