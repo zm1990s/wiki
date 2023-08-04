@@ -59,7 +59,7 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
   "id": null,
-  "iteration": 1691138153172,
+  "iteration": 1691138750747,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -282,7 +282,7 @@
             "uid": "${DS_PROMETHEUS}"
           },
           "exemplar": true,
-          "expr": "count(avi_healthscore_health_score_value{job=\"avi_pool\", instance=\"$instance\"}>10)",
+          "expr": "count(avi_healthscore_health_score_value{job=\"avi_pool\", instance=\"$instance\"}>0)",
           "format": "time_series",
           "interval": "",
           "legendFormat": "",
@@ -588,7 +588,7 @@
             "uid": "${DS_PROMETHEUS}"
           },
           "exemplar": true,
-          "expr": "count(avi_healthscore_health_score_value{job=\"avi_vs\", instance=\"$instance\"}>10)",
+          "expr": "count(avi_healthscore_health_score_value{job=\"avi_vs\", instance=\"$instance\"}>0)",
           "format": "time_series",
           "interval": "1m",
           "intervalFactor": 1,
@@ -614,11 +614,13 @@
       },
       "yaxes": [
         {
+          "$$hashKey": "object:736",
           "format": "short",
           "logBase": 1,
           "show": true
         },
         {
+          "$$hashKey": "object:737",
           "format": "short",
           "logBase": 1,
           "show": true
@@ -681,7 +683,7 @@
             "uid": "${DS_PROMETHEUS}"
           },
           "exemplar": true,
-          "expr": "count(avi_healthscore_health_score_value{instance=\"$instance\", job=\"avi_pool\"}>10)",
+          "expr": "count(avi_healthscore_health_score_value{instance=\"$instance\", job=\"avi_pool\"}>0)",
           "format": "time_series",
           "interval": "1m",
           "intervalFactor": 1,
@@ -707,11 +709,13 @@
       },
       "yaxes": [
         {
+          "$$hashKey": "object:798",
           "format": "short",
           "logBase": 1,
           "show": true
         },
         {
+          "$$hashKey": "object:799",
           "format": "short",
           "logBase": 1,
           "show": true
@@ -965,7 +969,17 @@
           "textEditor": false
         }
       ],
-      "thresholds": [],
+      "thresholds": [
+        {
+          "$$hashKey": "object:74",
+          "colorMode": "critical",
+          "fill": true,
+          "line": true,
+          "op": "gt",
+          "value": 80,
+          "yaxis": "left"
+        }
+      ],
       "timeRegions": [],
       "title": "Controller CPU%",
       "tooltip": {
@@ -1043,8 +1057,14 @@
       "steppedLine": false,
       "targets": [
         {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "${DS_PROMETHEUS}"
+          },
+          "exemplar": true,
           "expr": "avi_controller_stats_avg_mem_usage{instance=~\"$instance\", type=\"controller\"}",
           "format": "time_series",
+          "instant": false,
           "interval": "1m",
           "intervalFactor": 1,
           "legendFormat": "{{uuid}}",
@@ -1053,7 +1073,17 @@
           "textEditor": false
         }
       ],
-      "thresholds": [],
+      "thresholds": [
+        {
+          "$$hashKey": "object:203",
+          "colorMode": "critical",
+          "fill": true,
+          "line": true,
+          "op": "gt",
+          "value": 80,
+          "yaxis": "left"
+        }
+      ],
       "timeRegions": [],
       "title": "Controller Mem%",
       "tooltip": {
@@ -1069,11 +1099,14 @@
       },
       "yaxes": [
         {
+          "$$hashKey": "object:457",
           "format": "short",
+          "label": "",
           "logBase": 1,
           "show": true
         },
         {
+          "$$hashKey": "object:458",
           "format": "short",
           "logBase": 1,
           "show": true
@@ -1135,7 +1168,17 @@
           "refId": "A"
         }
       ],
-      "thresholds": [],
+      "thresholds": [
+        {
+          "$$hashKey": "object:165",
+          "colorMode": "critical",
+          "fill": true,
+          "line": true,
+          "op": "gt",
+          "value": 80,
+          "yaxis": "left"
+        }
+      ],
       "timeRegions": [],
       "title": "Average Disk Utilization",
       "tooltip": {
@@ -1151,11 +1194,13 @@
       },
       "yaxes": [
         {
+          "$$hashKey": "object:145",
           "format": "percent",
           "logBase": 1,
           "show": true
         },
         {
+          "$$hashKey": "object:146",
           "format": "short",
           "logBase": 1,
           "show": true
@@ -1368,7 +1413,7 @@
     ]
   },
   "time": {
-    "from": "now-12h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
@@ -1405,6 +1450,6 @@
   "timezone": "browser",
   "title": "Avi-Controller",
   "uid": "6knr2e3Vk",
-  "version": 57,
+  "version": 72,
   "weekStart": ""
 }
