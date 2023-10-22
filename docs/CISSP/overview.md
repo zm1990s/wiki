@@ -46,20 +46,6 @@ permalink: /docs/cissp/overview
 
 
 
-答题原则：
-
-- 法律法规、方针、目标优先
-
-- 覆盖或包含
-
-- 预防性、探测性、事后，首先选预防（看不了，带不走，进不来的优先级是看不了）
-
-- 对于数据安全的优先级：数据最小化（不存储就不涉及安全）、加密、访问控制
-
-- 有绝对词的不选
-
-  
-
 关于考试：
 
 - 共 6 小时，250 道题，每个题做完不能回退
@@ -78,3 +64,10 @@ permalink: /docs/cissp/overview
 
 
 
+## 所有笔记合集
+
+[https://blog.halfcoffee.com/docs/cissp/all](https://blog.halfcoffee.com/docs/cissp/all)
+
+笔记 PDF 下载链接：
+
+[PDF 笔记下载](/output/cissp-all.pdf)
