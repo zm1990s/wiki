@@ -16,7 +16,7 @@
 title: Wiki
 description: 我的技术维基百科
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://wiki.halfcoffee.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.halfcoffee.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -28,16 +28,17 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 search_enabled: true
 
 # Set the search token separator for hyphenated-word search:
-search_tokenizer_separator: /[\s/]+/
-
+#search_tokenizer_separator: /[\s\-/]+/ 
+#search_tokenizer_separator: /[\s/]+/
 # Enable or disable heading anchors
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "My Blog":
-    - "https://www.halfcoffee.com/"
 
+    
+aux_links:
+  '<button id="theme-toggle"></button>':
+    - '#"onclick="modeSwitcher()"'
 
 
 # Footer content appears at the bottom of every page's main content
@@ -49,7 +50,7 @@ color_scheme: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-152046093-1
+# ga_tracking: UA-152046093-1
 
 plugins:
   - jekyll-seo-tag
