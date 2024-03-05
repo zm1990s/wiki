@@ -1,0 +1,4 @@
+cd /Users/mazhang/Documents/git/wiki
+git add .
+git commit -m $1
+git push git@github.com:zm1990s/wiki.git master
