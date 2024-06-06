@@ -1,0 +1,13 @@
+# 记录 session key，然后通过 curl 进行 DoH 解析
+export SSLKEYLOGFILE=/root/session.key
+curl -H 'accept: application/dns-message' 'https://dns.google/resolve?name=www.example.com&type=A'
+
+{"Status":0,"TC":false,"RD":true,"RA":true,"AD":true,"CD":false,"Question":[{"name":"www.example.com.","type":1}],"Answer":[{"name":"www.example.com.","type":1,"TTL":179,"data":"93.184.215.14"}]}
+
+
+# cat session.key
+SERVER_HANDSHAKE_TRAFFIC_SECRET 7e3a6c0fd4e62f007e2afd08479336ea7e02d8682bcafc6edb5528d5de9ff475 257f09b2ff56ff9a75379000710aa0a49487ec002d3bb7572e28d04ca9ae116217dcf552ad59e8583c09ab377363c923
+EXPORTER_SECRET 7e3a6c0fd4e62f007e2afd08479336ea7e02d8682bcafc6edb5528d5de9ff475 081f068c0cf50f1d9aae41a4c4893362084acfbf7de9648ffa1561b26da6f0018275c3f53ebbe25386f81cff60e1d151
+SERVER_TRAFFIC_SECRET_0 7e3a6c0fd4e62f007e2afd08479336ea7e02d8682bcafc6edb5528d5de9ff475 06c246de7d0a05c450ef888c37150ab135c1029c6c6914ee67035fef02a85c7c5406b8f6be61f4f654a1ee25c5085b52
+CLIENT_HANDSHAKE_TRAFFIC_SECRET 7e3a6c0fd4e62f007e2afd08479336ea7e02d8682bcafc6edb5528d5de9ff475 50e840f041341c738714f07a69fb6d85b5838de2edf2814ef69664e0cd6fb74f1cdce4c9be295cd9ebf1a5eefdec21ea
+CLIENT_TRAFFIC_SECRET_0 7e3a6c0fd4e62f007e2afd08479336ea7e02d8682bcafc6edb5528d5de9ff475 d178cd61bc1b2f2e7104b8db149afdda551e31d72981ed22bd5ef3d483ddf232c10f1b6a9362c3cdcd11ec1cd9767e2a
