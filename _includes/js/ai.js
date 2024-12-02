@@ -1,11 +1,11 @@
 <script>
  window.difyChatbotConfig = {
   token: 'ScLrku0BLipyHrGl',
-  baseUrl: 'http://aisec.halfcoffee.com'
+  baseUrl: 'https://aisec.halfcoffee.com'
  }
 </script>
 <script
- src="http://aisec.halfcoffee.com/embed.min.js"
+ src="https://aisec.halfcoffee.com/embed.min.js"
  id="ScLrku0BLipyHrGl"
  defer>
 </script>
